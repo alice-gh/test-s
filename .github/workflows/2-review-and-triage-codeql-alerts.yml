@@ -9,6 +9,8 @@ on:
   workflow_dispatch:
   # Add events that trigger this workflow.
   # review-and-triage-codeql-alerts-event:
+  issues:
+    types: [opened]
 
 # Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
